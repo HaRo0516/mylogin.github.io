@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+    display: flex;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.para{
+    color: white; 
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 56px; 
+ 
+    
+}
+
+.container{
+
+    position: relative;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 100px;
+    box-sizing: border-box;
+    background: rgb(245, 242, 242);
+    box-shadow: 14px 14px 20px rgb(226,230,234) -14px -14px 20px rgb(226,230,234) ;
+}
+.brand-logo {
+    height: 100px;
+    width: 100px;
+    background: url("../user.jpg"); /* Fix: Change ur1 to url */
+    margin: auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #c7cfc7, -7px -7px 10px #c7cfc7;
+}
+
+.brand-title
+{
+    color: blue;
+}
+.input
+{
+    text-align: left;
+    margin-top: 30px;
+}
+label,input,button
+{
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+label
+{
+    margin-bottom: 4px;
+    color: blue;
+}
+label:nth-of-type(2)
+{
+    margin-top: 12px;
+}
+input::placeholder
+{
+    color: grey;
+}
+input
+{
+    background: rgb(245, 242, 242);
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #d1d6dc,inset -6px -6px 6px #e1d5d5 ;
+}
+button
+{
+    color: white;
+    margin-top: 20px;
+    background-color:blue;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbcedc,-6px -6px 6px #cbcedc;
+    transition: 0.5s;
+}
